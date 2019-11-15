@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Righteous&display=swap');
+
+header {
+  font-family: 'Amatic SC', cursive;
+  font-size: 9em;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4.5em;
+}
+
+.morale {
+  font-family: 'Poiret One', cursive;
+  font-size: 3.052em;
+  margin: 2.75rem 0 1rem;
+}
+
+
+  #fable00{
+    font-family: 'Comfortaa', cursive;
+}
+
+  #fable00 h2 {
+    margin: 2.75rem 0 2.75rem 0;
+    font-weight: 800;
+    line-height: 1.15;
+  }
+
+  #fable00 p {
+    margin-bottom: 1.25em;
+    line-height: 1.5;
+
+  }
+
+  #fable00 .fable-moral {
+      text-align: right;
+  }
+
+
+  #fable01 {
+    font-family: 'Prata', serif;
+    color: noir;
+  }
+
+
+  #fable02 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 1.1em;
+    color: white;
+  }
+
+  #fable02 h2 {
+    text-align: center;
+  }

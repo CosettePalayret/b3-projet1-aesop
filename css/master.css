@@ -1,0 +1,107 @@
+body {
+  margin : 0;
+}
+
+header {
+  min-height: 100vh;
+  padding: 1em;
+  background-color: #EEAFAF;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    min-height: 100vh;
+}
+
+#fable00 {
+  overflow: hidden;
+  background: #AEB39D url('images/chien.jpg') right center no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#fable00 .main-content {
+    max-width: 480px;
+    margin-right: 505px;
+}
+
+#fable00 h2{
+  color: white;
+}
+
+#fable00 p {
+  background: #5D757F;
+  color: #fff;
+  padding: 8vw;
+  border-radius: 12px;
+}
+
+
+#fable01 {
+  min-height: 60vh;
+  background: #A69DB3 url('images/renard2.jpg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 42px;
+}
+
+#fable01 h2{
+  color: white;
+}
+
+#fable01 .text-content {
+  background: rgba(252, 193, 238, 0.5);
+  padding: 42px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+  max-width: 620px;
+}
+
+
+#fable02 {
+  min-height: 60vh;
+  background: #A39DB3;
+  overflow: hidden;
+  padding: 6px;
+}
+
+#fable02 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable02 h2{
+  color: white;
+}
+
+#fable02 .text-content {
+  background: rgba(102, 83, 115, 0.5);
+  padding: 42px;
+  margin: 6px;
+  max-width: 620px;
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable02 figure {
+  max-width: 620px;
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+}
+
+#fable02 figure img {
+  width : 100%;
+  border : 2px solid #000;
+}
